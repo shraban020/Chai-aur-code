@@ -1,0 +1,21 @@
+print("In which order, it will look for methods we access")
+print("-"*20)
+# ---------------
+
+class NewEmployee(Employee):
+    pass
+
+print(NewEmployee.mro()) # mro: Method Resolution Order
+
+print("#"*40, end="\n\n")
+#####################
+
+print("list class")
+print("In which order, it will look for methods we access")
+print("-"*20)
+# ---------------
+
+print(list.mro()) # mro: Method Resolution Order
+
+print("#"*40, end="\n\n")
+#####################
